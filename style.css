@@ -1,0 +1,60 @@
+body {
+	background-color:pink;
+	color: #555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin:0;
+}
+.container{
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+
+}
+
+#main-header{
+	background-color: #555;
+	color: #fff;
+
+	border-right:5px red solid
+	border-left:5px red solid
+}
+
+#navbar{
+background-color: #333;
+color: #fff;
+}
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right:15px;
+}
+#sidebar{
+	float: right;
+	width: 35%;
+	background-color: coral;
+	color: #fff;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+#main-footer{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;	
+}
+
+.myform{
+	padding:20px;
+}
+.my-form input[type=text], .my-form textarea{
+	padding:8px;
+	width:100%
+}
